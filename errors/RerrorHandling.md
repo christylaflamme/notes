@@ -43,8 +43,12 @@ conda config --set auto_activate_base false
 ``` 
 # R installation on ubuntu
 
-## First, check the file ‘/etc/apt/sources.list’, and look for the line:
-## ‘deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/’
+First, check the file ‘/etc/apt/sources.list’, and look for the line:
+
+```
+‘deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/’
+``` 
+
 
 If line does not exist, run the following in a terminal session to use the R CRAN version:
 # sudo is for super user, apt is package installer for linux
