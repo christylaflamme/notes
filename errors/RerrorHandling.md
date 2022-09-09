@@ -43,7 +43,7 @@ conda config --set auto_activate_base false
 ``` 
 # R installation on ubuntu
 
-First, check the file ‘/etc/apt/sources.list’, and look for the line:
+Check the file ‘/etc/apt/sources.list’, and look for the line:
 
 ```
 ‘deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/’
@@ -58,20 +58,20 @@ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E298A3A82
 sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/' 
 ```
 
-# Remove lines that do not align with correct version of ubuntu
+## Remove lines that do not align with correct version of ubuntu
 
 ```
 sudo vi /etc/apt/sources.list 
 ```
-sudo is required to edit and vi is a text editor
+"sudo" is required to edit and "vi" is a text editor
 
-# Install R
+## Install R
 
 ```bash
 sudo apt install r-base
 ```
 
-# Check R version
+## Check R version
 
 ```bash
 R --version 
