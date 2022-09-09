@@ -59,7 +59,6 @@ sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic
 ```
 sudo vi /etc/apt/sources.list 
 ```
-"sudo" is required to edit and "vi" is a text editor
 
 ## Install R
 
