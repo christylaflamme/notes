@@ -16,12 +16,11 @@ export R_LIBS_USER=/path/to/library
 # More Error Handling: "image not found"
 
 ```bash
-R
-```
 dyld: Library not loaded: @rpath/libicuuc.54.dylib
   Referenced from: /Users/claflamm/miniconda3/lib/R/lib/libR.dylib
   Reason: image not found
 Abort trap: 6
+```
 
 ```bash
 conda deactivate
