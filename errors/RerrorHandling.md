@@ -48,8 +48,6 @@ Check the file ‘/etc/apt/sources.list’, and look for the line:
 >deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/
 
 If line does not exist, run the following in a terminal session to use the R CRAN version:
-sudo is for super user, apt is package installer for linux
-18.04 is bionic
 
 ```bash
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9 
