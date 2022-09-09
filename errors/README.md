@@ -1,9 +1,18 @@
-# Notes for using R on the HPC:
+# Notes for using R on the HPC
 
-## Installing packages:
+## Installing packages
+
+
   Method 1: 
     Install packages using interactive R studio image
-    Set R_LIBS_USER in bashrc (export R_LIBS_USER=/home/claflamm/R/x86_64-pc-linux-gnu-library/4.0/)
+    Set R_LIBS_USER in bashrc 
+    
+ ```bash
+export R_LIBS_USER=/path/to/library
+```
+ 
+ 
+ 
   Method 2:
     Install packages using terminal interactive R
     Set R_LIBS_USER in bashrc
