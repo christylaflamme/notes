@@ -13,7 +13,7 @@ export R_LIBS_USER=/path/to/library
   Method 2:
     Install packages using the terminal interactive R and set R_LIBS_USER in .bashrc
 
-# More Error Handling
+# More Error Handling: "image not found"
 
 > R
 
