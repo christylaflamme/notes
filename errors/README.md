@@ -11,19 +11,9 @@ export R_LIBS_USER=/path/to/library
 ```
  
   Method 2:
-    Install packages using the terminal interactive R
-   
-```bash
-R
-```
-Set R_LIBS_USER in .bashrc
+    Install packages using the terminal interactive R and set R_LIBS_USER in .bashrc
 
-```bash
-export R_LIBS_USER=/path/to/library
-```
-
-
-
+# More Error Handling
 
 
 
