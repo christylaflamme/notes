@@ -1,4 +1,4 @@
-Notes for using R on the HPC:
+# Notes for using R on the HPC:
 
 Installing packages:
   Method 1: 
