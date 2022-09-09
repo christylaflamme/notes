@@ -41,8 +41,29 @@ conda config --set changeps1 false
 ```bash
 conda config --set auto_activate_base false 
 ``` 
+# R installation on ubuntu
+
+## First, check the file ‘/etc/apt/sources.list’, and look for the line:
+## ‘deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/’
+
+If line does not exist, run the following in a terminal session to use the R CRAN version:
+# sudo is for super user, apt is package installer for linux
+
+```bash
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9 
+```
 
 
+$sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/' #18.04 is bionic
+
+# Remove lines that do not align with correct version of ubuntu
+$sudo vi /etc/apt/sources.list # sudo is required to edit and vi is a text editor
+
+# Install R
+$sudo apt install r-base
+
+# Check R version
+R --version #should be up to date (in this case 4.0.3)
 
 
 
