@@ -4,7 +4,7 @@
 
 
   Method 1: 
-    Install packages using interactive R studio image
+    Install packages using an interactive R studio image
     Set R_LIBS_USER in bashrc 
     
  ```bash
