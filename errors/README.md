@@ -22,10 +22,6 @@ dyld: Library not loaded: @rpath/libicuuc.54.dylib
 Abort trap: 6
 ```
 
-```bash
-conda deactivate
-```
-
 ## Must remove default conda base initialization: run this once to remove the default
 
 ```bash
