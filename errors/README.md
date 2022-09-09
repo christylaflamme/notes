@@ -1,4 +1,4 @@
-# Notes for using R on the HPC
+# Using R/Rstudio on the HPC
 
 ## Installing packages
 
