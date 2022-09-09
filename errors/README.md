@@ -13,6 +13,14 @@ export R_LIBS_USER=/path/to/library
   Method 2:
     Install packages using the terminal interactive R and set R_LIBS_USER in .bashrc
 
+# R Memory Issues
+
+If R is being slow by constantly loading the previous workspace and despite clearing the environment, R is taking up all of the working memory on your device: delete the .RData file in the root directory
+
+```bash
+rm .RData
+```
+
 # More Error Handling: "image not found"
 
 ```bash
@@ -33,5 +41,11 @@ conda config --set changeps1 false
 ```bash
 conda config --set auto_activate_base false 
 ``` 
+
+
+
+
+
+
 
 
