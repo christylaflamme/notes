@@ -16,7 +16,7 @@ export R_LIBS_USER=/path/to/library
 ```bash
 R
 ```
-    Set R_LIBS_USER in .bashrc
+Set R_LIBS_USER in .bashrc
 
 ```bash
 export R_LIBS_USER=/path/to/library
