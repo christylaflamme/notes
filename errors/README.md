@@ -15,10 +15,6 @@ export R_LIBS_USER=/path/to/library
 
 # More Error Handling
 
-
-
-
-
 > R
 
 dyld: Library not loaded: @rpath/libicuuc.54.dylib
@@ -26,9 +22,7 @@ dyld: Library not loaded: @rpath/libicuuc.54.dylib
   Reason: image not found
 Abort trap: 6
 
-
 > conda deactivate
-
 
 R version 4.0.2 (2020-06-22) -- "Taking Off Again"
 Copyright (C) 2020 The R Foundation for Statistical Computing
@@ -48,10 +42,16 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-# Must remove default conda base initialization 
+## Must remove default conda base initialization: run this once to remove the default
 
-> conda config --set changeps1 false # run this once to remove the default
+```bash
+conda config --set changeps1 false
+```
 
-# Problem persisted
+## If problem persists, set auto activate base
 
-> conda config --set auto_activate_base false # seems to clear it up
+```bash
+conda config --set auto_activate_base false 
+``` 
+
+
