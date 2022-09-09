@@ -18,7 +18,7 @@ export R_LIBS_USER=/path/to/library
 If R is being slow by constantly loading the previous workspace and despite clearing the environment, R is taking up all of the working memory on your device: delete the .RData file in the root directory
 
 ```bash
-rm .RData
+rm ~/.RData
 ```
 
 # More Error Handling: "image not found"
