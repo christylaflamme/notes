@@ -1,0 +1,4 @@
+#  getting rid of previous session info to clear things out
+rm -r ~/.local/share/rstudio/sessions
+rm -r ~/rstudio-tmp
+
