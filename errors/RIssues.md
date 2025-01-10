@@ -4,7 +4,8 @@
 
   Method 1: 
     Install packages using an interactive R studio image
-    Set R_LIBS_USER in .bashrc 
+    Set R_LIBS_USER (technically optional) in .bashrc 
+    If set, will be prepended to the library path (which is displayed by .libPaths()).
     
 ```bash
 export R_LIBS_USER=/path/to/library
