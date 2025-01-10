@@ -73,6 +73,14 @@ sudo apt install r-base
 R --version 
 ```
 
+## Troubleshooting for R studio singularity 
+If having issues with the session, try deletion some finals (advice originally came from Jared Andrews)
+
+```bash
+rm -r ~/.local/share/rstudio/sessions
+rm -r ~/rstudio-tmp
+```
+
 
 
 
