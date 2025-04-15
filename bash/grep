@@ -1,0 +1,2 @@
+# use grep recurively to find all files of certain type and count them
+grep -r --include "*.bam" . | wc -l
