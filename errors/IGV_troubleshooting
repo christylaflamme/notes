@@ -1,0 +1,3 @@
+# if IGV does not load bams, delete app, and redownload
+# also, clear the cache igv/ and .igv/ folders in the home directory
+# this should clear everything out 
