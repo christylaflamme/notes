@@ -28,6 +28,12 @@ How to default to bash instead zsh:
 Terminal: Select Default Profile
 ```
 
+To search using a command, use the `>` character.
+
+Important extensions: R, python, Remote - SSH.
+
+To access VSCode IDE while on ssh, installed Remote - ssh extension, and then use the >< icon on the bottom left to connect to the host.
+
 # tmux
 tmux commonly used keyboard commands
 
