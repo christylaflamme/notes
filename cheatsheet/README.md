@@ -22,3 +22,8 @@ Launch VSCode from terminal so that environmental configurations and filesystem 
 ```
 code .
 ```
+
+How to default to bash instead zsh:
+```
+Terminal: Select Default Profile
+```
