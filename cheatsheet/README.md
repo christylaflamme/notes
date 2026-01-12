@@ -27,3 +27,11 @@ How to default to bash instead zsh:
 ```
 Terminal: Select Default Profile
 ```
+
+# tmux
+tmux commonly used keyboard commands
+
+Detach: `Ctrl-b-d`
+Next window/tab: `Ctrl-b-n`
+Specific window/tab: `Ctrl-b-#`
+
