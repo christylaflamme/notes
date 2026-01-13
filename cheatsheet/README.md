@@ -42,6 +42,9 @@ Next window/tab: `Ctrl-b-n`
 Specific window/tab: `Ctrl-b-#`
 Enter copy mode (can scroll up and down as normal): `Ctrl-b-[`
 Exit copy mode: `q`
+List sessions: `tmux list-sessions`
+Kill session: `tmux kill-session`
+
 
 # slurm
 Cancel a job:
