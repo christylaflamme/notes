@@ -40,6 +40,8 @@ tmux commonly used keyboard commands
 Detach: `Ctrl-b-d`
 Next window/tab: `Ctrl-b-n`
 Specific window/tab: `Ctrl-b-#`
+Enter copy mode (can scroll up and down as normal): `Ctrl-b-[`
+Exit copy mode: `q`
 
 # slurm
 Cancel a job:
