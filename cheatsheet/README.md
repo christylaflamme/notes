@@ -41,3 +41,31 @@ Detach: `Ctrl-b-d`
 Next window/tab: `Ctrl-b-n`
 Specific window/tab: `Ctrl-b-#`
 
+# slurm
+Cancel a job:
+```
+scancel
+```
+
+# Installing executables to utilize software tools
+First, download the linux executable file
+```
+wget <link_address>
+```
+
+Then, decompress it:
+```
+tar -xvf <file.tar.gz>
+```
+
+
+Then, navigate into the unzipped folder, find the executable, `md5sum` check, and move it into the install location in PATH (/mmfs1/gscratch/stergachislab/claflamm/bin).
+Finally, check the install: 
+```
+app_name -h
+```
+
+
+
+
+
