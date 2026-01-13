@@ -57,6 +57,7 @@ First, download the linux executable file
 ```
 wget <link_address>
 ```
+Note: make sure you copy the link address from "raw," not the HTML link from the browser.
 
 Then, decompress it:
 ```
