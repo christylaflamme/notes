@@ -7,7 +7,7 @@ Go back to your last location without having to re-type the path or navigate wit
 cd -
 ```
 
-# How to zip a list of files together
+How to zip a list of files together
 zip = command
 files.zip = names of zipped files document
 -@ = argument to take a file list
