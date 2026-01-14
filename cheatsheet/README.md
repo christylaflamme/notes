@@ -47,9 +47,23 @@ Kill session: `tmux kill-session`
 
 
 # slurm
+List queue (alias):
+```
+myq
+```
+
 Cancel a job:
 ```
 scancel
+```
+Check memory usage:
+```
+hyakstorage -u
+```
+
+Check allocations/partitions:
+```
+hyakalloc
 ```
 
 # Installing executables to utilize software tools
