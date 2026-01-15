@@ -72,8 +72,14 @@ Check allocations/partitions:
 hyakalloc
 ```
 Resource allocation:
+
+
 Group: `stergachislab`
+
+
 Partitions for lab: `cpu-g2` (newer) `compute-ultramem` (older)
+
+
 Partitions for department that can be used if lab resources are already allocated: `ckpt`
 
 # Installing executables to utilize software tools
