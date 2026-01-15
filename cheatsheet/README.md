@@ -37,7 +37,19 @@ To access VSCode IDE while on ssh, installed Remote - ssh extension, and then us
 # tmux
 tmux commonly used keyboard commands
 
-Detach: `Ctrl-b-d` Next window/tab: `Ctrl-b-n`  Specific window/tab: `Ctrl-b-#`  Enter copy mode (can scroll up and down as normal): `Ctrl-b-[`  Exit copy mode: `q`  List sessions: `tmux list-sessions`  Kill session: `tmux kill-session`
+Detach: `Ctrl-b-d
+
+Next window/tab: `Ctrl-b-n`
+
+Specific window/tab: `Ctrl-b-#`
+
+Enter copy mode (can scroll up and down as normal): `Ctrl-b-[`
+
+Exit copy mode: `q`
+
+List sessions: `tmux list-sessions`
+
+Kill session: `tmux kill-session`
 
 
 # slurm
