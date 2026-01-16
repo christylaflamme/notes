@@ -82,6 +82,19 @@ Partitions for lab: `cpu-g2` (newer) `compute-ultramem` (older)
 
 Partitions for department that can be used if lab resources are already allocated: `ckpt`
 
+# R
+Installed R on klone/hyak using miniconda: `/mmfs1/gscratch/stergachislab/claflamm/bin/miniconda3/`
+
+
+This R environment is named: `renv`
+
+
+The packages for OnDemand: `/mmfs1/gscratch/stergachislab/claflamm/bin/miniconda3/envs/renv/lib`
+
+
+The packages for renv: `/mmfs1/gscratch/stergachislab/claflamm/bin/miniconda3/envs/renv/lib/R/library`
+
+
 # Installing executables to utilize software tools
 First, download the linux executable file
 ```
