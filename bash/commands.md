@@ -21,6 +21,11 @@ Use grep recursively to find all files of certain type and count them
 grep -r --include "*.bam" . | wc -l
 ```
 
+Extend the text when using less
+```
+less: -S
+```
+
 # What does {} \; mean?
 https://superuser.com/questions/638375/what-does-mean-in-find-in-linux
 
