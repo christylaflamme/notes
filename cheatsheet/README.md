@@ -31,6 +31,7 @@ Terminal: Select Default Profile
 To search using a command, use the `>` character.
 
 Important extensions: R, python, Remote - SSH.
+
 How to fix remote ssh faulty connectivity: https://stackoverflow.com/questions/60335069/vscode-remote-connection-error-the-process-tried-to-write-to-a-nonexistent-pipe
 
 To access VSCode IDE while on ssh, installed Remote - ssh extension, and then use the >< icon on the bottom left to connect to the host.
