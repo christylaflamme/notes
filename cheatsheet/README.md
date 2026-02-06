@@ -61,7 +61,7 @@ myq
 ```
 Submit a job:
 ```
-<job.sh> < sbatch
+job.sh < sbatch
 ```
 
 Cancel a job:
