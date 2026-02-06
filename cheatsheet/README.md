@@ -59,6 +59,8 @@ List queue (alias):
 ```
 myq
 ```
+Submit a job:
+<job.sh> < sbatch
 
 Cancel a job:
 ```
