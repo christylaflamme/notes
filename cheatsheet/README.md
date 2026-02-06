@@ -90,6 +90,11 @@ Partitions for department that can be used if lab resources are already allocate
 
 # Conda and Mamba
 Note: Mamba executable is located in: `/mmfs1/gscratch/stergachislab/claflamm/bin` and mamba root directory is here: `/mmfs1/gscratch/stergachislab/claflamm/micromamba`
+Basic commands:
+```
+micromamba create -n env
+micromamba activate bio
+111
 
 # R
 
