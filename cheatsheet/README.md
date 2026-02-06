@@ -94,7 +94,7 @@ Basic commands:
 ```
 micromamba create -n env
 micromamba activate bio
-111
+```
 
 # R
 
