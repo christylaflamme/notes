@@ -96,6 +96,11 @@ scp claflamm@klone.hyak.uw.edu:/mmfs1/gscratch/stergachislab/claflamm/projects/m
 scp  ./mydocument claflamm@klone.hyak.uw.edu:/mmfs1/gscratch/stergachislab/claflamm/projects/
 ```
 
+For loops for quick tasks: (example cats zipped files, does a line count, and then prints the file and the line count to the screen)
+```
+for file in *gz; do zcat "$file" | wc -l | awk -v f="$file" '{print $1,f}'; done
+```
+
 # Conda and Mamba
 Note: Mamba executable is located in: `/mmfs1/gscratch/stergachislab/claflamm/bin` and mamba root directory is here: `/mmfs1/gscratch/stergachislab/claflamm/micromamba`
 
