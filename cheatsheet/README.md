@@ -164,7 +164,7 @@ b) create ~/.aws/credentials with the following content:
 (Two keys are the same as k_stergachis_reader in Configure rclone)
 ```
 
-#2 Create ~/.aws/cofidential with the following contents:
+#2 Create ~/.aws/confidential with the following contents:
 
 ```
 [default]
