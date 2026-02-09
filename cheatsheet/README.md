@@ -150,7 +150,29 @@ Finally, check the install:
 app_name -h
 ```
 
+# IGV
+On local machine, set up credentials for stergachis_reader (kopah).
 
+#1 Create ~/.aws/config with the following contents:
+
+```
+[default]
+region = us-west-2
+output = json
+endpoint_url = https://s3.kopah.uw.edu
+b) create ~/.aws/credentials with the following content:
+(Two keys are the same as k_stergachis_reader in Configure rclone)
+```
+
+#2 Create ~/.aws/cofidential with the following contents:
+
+```
+[default]
+aws_access_key_id = <your stergachis_reader Access Key>
+aws_secret_access_key = <your stergachis_reader Secret Key>
+```
+
+#3 Download igv session files (.igv.xml) from prod reporter (https://s3.kopah.uw.edu/prod-reporter/index.html). These can now be opened in IGV to load bams from server in a session.
 
 
 
