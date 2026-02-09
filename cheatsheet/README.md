@@ -88,6 +88,14 @@ Partitions for lab: `cpu-g2` (newer) `compute-ultramem` (older)
 
 Partitions for department that can be used if lab resources are already allocated: `ckpt`
 
+# Bash/ssh
+
+Secure copy documents:
+```
+scp claflamm@klone.hyak.uw.edu:/mmfs1/gscratch/stergachislab/claflamm/projects/mydocument .
+scp  ./mydocument claflamm@klone.hyak.uw.edu:/mmfs1/gscratch/stergachislab/claflamm/projects/
+```
+
 # Conda and Mamba
 Note: Mamba executable is located in: `/mmfs1/gscratch/stergachislab/claflamm/bin` and mamba root directory is here: `/mmfs1/gscratch/stergachislab/claflamm/micromamba`
 
