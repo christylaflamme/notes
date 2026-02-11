@@ -36,7 +36,14 @@ To access VSCode IDE while on ssh, installed Remote - ssh extension, and then us
 
 How to fix remote ssh faulty connectivity: https://stackoverflow.com/questions/60335069/vscode-remote-connection-error-the-process-tried-to-write-to-a-nonexistent-pipe
 
-VScode on hyak via proxyjump: https://hyak.uw.edu/docs/tools/vsc-proxy-jump/
+VScode on hyak via proxyjump: https://hyak.uw.edu/docs/tools/vsc-proxy-jump/ (recommended)
+
+Shortcuts:
+Command Palette-
+```
+Cmd - Shift - P
+```
+Edit settings through command palette: 'settings.json'
 
 # tmux
 tmux commonly used keyboard commands
