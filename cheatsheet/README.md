@@ -39,11 +39,11 @@ How to fix remote ssh faulty connectivity: https://stackoverflow.com/questions/6
 VScode on hyak via proxyjump: https://hyak.uw.edu/docs/tools/vsc-proxy-jump/ (recommended)
 
 Shortcuts:
-Command Palette-
+Command Palette
 ```
 Cmd - Shift - P
 ```
-Edit settings through command palette: 'settings.json'
+Edit settings through command palette: <settings.json>
 
 # tmux
 tmux commonly used keyboard commands
