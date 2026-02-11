@@ -97,6 +97,9 @@ Partitions for lab: `cpu-g2` (newer) `compute-ultramem` (older)
 
 Partitions for department that can be used if lab resources are already allocated: `ckpt`
 
+<sbatch.slurm> is a template batch job script for slurm.
+<get-node.py> is a python script for submitting an interactive job request with customizable parameters and nifty capabilities.
+
 # Bash/ssh
 
 Secure copy documents:
