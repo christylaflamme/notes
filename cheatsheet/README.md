@@ -53,7 +53,7 @@ Exit copy mode: `q`
 
 List sessions: `tmux list-sessions`
 
-Kill session: `tmux kill-session`
+Kill session: `tmux kill-session -t <session>`
 
 
 # slurm
