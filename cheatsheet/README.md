@@ -99,6 +99,7 @@ Partitions for department that can be used if lab resources are already allocate
 
 <sbatch.slurm> is a template batch job script for slurm.
 <get-node.py> is a python script for submitting an interactive job request with customizable parameters and nifty capabilities.
+You can proxy jump to the interactive node from local computer or from login node using: `ssh <node>`
 
 # Bash/ssh
 
