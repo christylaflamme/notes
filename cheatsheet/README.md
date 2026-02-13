@@ -143,7 +143,7 @@ This R environment is named: `renv`
 
 The packages for renv: `/mmfs1/gscratch/stergachislab/claflamm/bin/miniconda3/envs/renv/lib/R/library`
 
-Note: in order to execute R from VS Code (with autofill via extensions), needed to update r paths in the VS Code command palette via remote `settings.json` file [Preferences: Open Remote Settings (JSON)]:
+Note: in order to execute R from VS Code (with autofill via extensions), you need to update your r paths in the VS Code command palette via remote `settings.json` file [Preferences: Open Remote Settings (JSON)]:
 ```
 "r.rpath.linux": "/path/to/R/executable/in/conda/env/R",
 "r.rterm.linux": "/path/to/R/executable/in/conda/env/R"
