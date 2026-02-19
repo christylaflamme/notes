@@ -77,6 +77,12 @@ Cancel a job:
 ```
 scancel
 ```
+
+Check the details about a job, including the original submission line:
+```
+scontrol show job <JOBID>
+```
+
 Check memory usage:
 ```
 hyakstorage -u
