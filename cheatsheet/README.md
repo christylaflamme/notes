@@ -174,6 +174,10 @@ Finally, check the install:
 app_name -h
 ```
 
+# Installing software built in python using environments
+
+Create an environment with  micromamba, `pip install -e .` will look for a `pyproject.toml` that will correctly build the env to the specifications outlined in the file (i.e. dependencies, commands). Once the environment is activated, the ommands can be executed from anywhere using the `[project.scripts]` nomenclature.
+
 # IGV
 On local machine, set up credentials for stergachis_reader (kopah).
 
