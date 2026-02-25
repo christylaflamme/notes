@@ -209,5 +209,4 @@ bin (in PATH): /mmfs1/gscratch/stergachislab/claflamm/bin/
 commands (in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/commands/
 micromamba (in PATH): /mmfs1/gscratch/stergachislab/claflamm/micromamba/
 tools (NOT in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/
-
-
+```
