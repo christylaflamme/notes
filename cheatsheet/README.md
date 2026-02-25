@@ -202,5 +202,11 @@ aws_secret_access_key = <your stergachis_reader Secret Key>
 
 #3 Download igv session files (.igv.xml) from prod reporter (https://s3.kopah.uw.edu/prod-reporter/index.html). These can now be opened in IGV to load bams from server in a session.
 
+# PATH
+Note: only things that you want to be exectuable from everywhere at all times should be in PATH. Therefore, I have bin/ in path, and I have tools/commands/ in path. Whereas, I can install environment-specific software into tools/ and it won't interfere between my user PATH and env-specific PATHs.
+```
+bin (in PATH): /mmfs1/gscratch/stergachislab/claflamm/bin
+commands (in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/commands
+tools (not in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/
 
 
