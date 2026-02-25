@@ -205,8 +205,9 @@ aws_secret_access_key = <your stergachis_reader Secret Key>
 # PATH
 Note: only things that you want to be exectuable from everywhere at all times should be in PATH. Therefore, I have bin/ in path, and I have tools/commands/ in path. Whereas, I can install environment-specific software into tools/ and it won't interfere between my user PATH and env-specific PATHs.
 ```
-bin (in PATH): /mmfs1/gscratch/stergachislab/claflamm/bin
-commands (in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/commands
-tools (not in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/
+bin (in PATH): /mmfs1/gscratch/stergachislab/claflamm/bin/
+commands (in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/commands/
+micromamba (in PATH): /mmfs1/gscratch/stergachislab/claflamm/micromamba/
+tools (NOT in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/
 
 
