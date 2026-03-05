@@ -180,6 +180,8 @@ Finally, check the install:
 app_name -h
 ```
 
+Note: you can make your own scripts executable by using the shebang headers `#!/usr/bin/env python3` and chmod command `chmod +x <script>`
+
 # Installing software built in python using environments
 
 Create an environment with  micromamba, `pip install -e .` will look for a `pyproject.toml` that will correctly build the env to the specifications outlined in the file (i.e. dependencies, commands). Once the environment is activated, the ommands can be executed from anywhere using the `[project.scripts]` nomenclature.
