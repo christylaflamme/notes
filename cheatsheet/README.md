@@ -121,6 +121,11 @@ For loops for quick tasks: (example cats zipped files, does a line count, and th
 for file in *gz; do zcat "$file" | wc -l | awk -v f="$file" '{print $1,f}'; done
 ```
 
+Check if command is in your path
+```
+which <command>
+```
+
 # Conda and Mamba
 Note: Mamba executable is located in: `/mmfs1/gscratch/stergachislab/claflamm/bin` and mamba root directory is here: `/mmfs1/gscratch/stergachislab/claflamm/micromamba`
 
