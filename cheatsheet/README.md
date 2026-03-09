@@ -218,3 +218,5 @@ commands (in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/commands/
 micromamba (in PATH): /mmfs1/gscratch/stergachislab/claflamm/micromamba/
 tools (NOT in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/
 ```
+# Tools
+FiberHMM: installed from source and created micromamba env `fiberhmm` where commands are executable under their `pyproject.toml` names.
