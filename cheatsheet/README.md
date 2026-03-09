@@ -220,3 +220,6 @@ tools (NOT in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/
 ```
 # Tools
 FiberHMM: installed from source and created micromamba env `fiberhmm` where commands are executable under their `pyproject.toml` names.
+
+# Git
+Note: added public ssh keys for both klone and local MacBook air to github in order to be able to clone repos via `git clone git@github.com:path/to.git`
