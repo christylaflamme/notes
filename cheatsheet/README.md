@@ -226,6 +226,12 @@ Note: added public ssh keys for both klone and local MacBook air to github in or
 
 # Local
 Note: installed `micromamba` with `homebrew` for environment management.
+
+
 Executable: /opt/homebrew/Cellar/micromamba/2.5.0_2/bin/mamba
+
+
 Libs: /opt/homebrew/Cellar/micromamba/2.5.0_2
+
+
 Environments: /Users/claflamm/.local/share/mamba/envs
