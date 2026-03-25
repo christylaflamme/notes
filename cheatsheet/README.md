@@ -217,6 +217,7 @@ bin (in PATH): /mmfs1/gscratch/stergachislab/claflamm/bin/
 commands (in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/commands/
 micromamba (in PATH): /mmfs1/gscratch/stergachislab/claflamm/micromamba/
 tools (NOT in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/
+note: I have set it up before where I am storing the software in tools and then linking the executable file in bin so that it is in my PATH.
 ```
 # Tools
 FiberHMM: installed from source and created micromamba env `fiberhmm` where commands are executable under their `pyproject.toml` names.
