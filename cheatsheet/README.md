@@ -48,7 +48,7 @@ Edit settings through command palette: <settings.json>
 # tmux
 tmux commonly used keyboard commands
 
-Detach: `Ctrl-b-d`
+Detach: `Ctrl-b-d` or `tmux detach`
 
 Next window/tab: `Ctrl-b-n`
 
