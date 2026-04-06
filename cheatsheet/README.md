@@ -243,3 +243,10 @@ Pixi is a package/env manager for python and other languages. Pixi is installed 
 
 
 Pixi recognizes the configuration file the `pixi.toml` to set up the env/dependencies/commands/etc. After cloning the github repo, use `pixi install` in the folder with the configuration file to install dependencies. Then, use pixi commands as specified in the configuation file to use the installed software.
+
+# Jupyter Notebook
+To use jupyter notebook:
+```
+jup
+```
+This is an alias to submit a slurm job that starts jupyter notebook on the HPCF. A log file is deposited into ~/start_jupyter_output with local ssh command to tunnel and links for local browser to access the port running Jupyter. Hint: use the last link with the token.
