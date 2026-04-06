@@ -62,6 +62,7 @@ List sessions: `tmux list-sessions`
 
 Kill session: `tmux kill-session -t <session>`
 
+*note: after pressing control and b, make sure you are releasing it before pressing the subsequent keys.
 
 # slurm
 List queue (alias):
