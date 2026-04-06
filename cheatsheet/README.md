@@ -62,7 +62,7 @@ List sessions: `tmux list-sessions`
 
 Kill session: `tmux kill-session -t <session>`
 
-*note: after pressing control and b, make sure you are releasing it before pressing the subsequent keys.
+*note: after pressing control and b, make sure you are releasing it before pressing the subsequent keys. And rand sessions are only accessible from the nodes which they are deployed (i.e. if you start on an interactv node, then you need to migrate to that node before using "rand" shortcut from: https://github.com/StergachisLab/Miscellaneous_lab_wiki/wiki/Mitchells-shell-tips)
 
 # slurm
 List queue (alias):
