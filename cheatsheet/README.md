@@ -45,6 +45,8 @@ Cmd - Shift - P
 ```
 Edit settings through command palette: <settings.json>
 
+*Github Copilot icon in the bottom right hand of the IDE can be used to track inline suggestions and chat message usage.
+
 # tmux
 tmux commonly used keyboard commands
 
