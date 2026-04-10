@@ -225,6 +225,13 @@ note: I have set it up before where I am storing the software in tools and then 
 # Tools
 FiberHMM: installed from source and created micromamba env `fiberhmm` where commands are executable under their `pyproject.toml` names.
 
+
+To install updates of FiberHMM, inside micromamba env and FiberHMM cloned repo: `git pull` and then `pip install -e .`
+
+
+To check repo version: `git log --oneline -5`
+
+
 # Git
 Note: added public ssh keys for both klone and local MacBook air to github in order to be able to clone repos via `git clone git@github.com:path/to.git`
 
