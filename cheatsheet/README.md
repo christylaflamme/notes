@@ -226,7 +226,7 @@ note: I have set it up before where I am storing the software in tools and then 
 FiberHMM: installed from source and created micromamba env `fiberhmm` where commands are executable under their `pyproject.toml` names.
 
 
-To install updates of FiberHMM, inside micromamba env and FiberHMM cloned repo: `git pull` and then `pip install -e .`
+To install updates of FiberHMM, inside micromamba env and FiberHMM cloned repo: `git pull` and then `pip install -e .` To upgrade, `pip install --upgrade <toolname>`.
 
 
 To check repo version: `git log --oneline -5`
