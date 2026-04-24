@@ -8,6 +8,7 @@
 #SBATCH --partition=<node_type>
 #SBATCH --nodes=<num_nodes>
 #SBATCH --ntasks-per-node=<cores_per_node>
+#SBATCH --cpus-per-task=<cpus_per_task>
 #SBATCH --mem=<size[unit]>
 #SBATCH --gpus=<type:quantity> 
 #SBATCH --time=<time> # Max runtime in DD-HH:MM:SS format.
