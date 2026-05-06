@@ -213,6 +213,8 @@ aws_secret_access_key = <your stergachis_reader Secret Key>
 
 #3 Download igv session files (.igv.xml) from prod reporter (https://s3.kopah.uw.edu/prod-reporter/index.html). These can now be opened in IGV to load bams from server in a session.
 
+# Creating S3 links: if the bam is not accessed through prod reporter quick igv session download, then you need to copy the data over to rclone and use the s3 link. I have already set up `policy.json` file so that my personal bucket is accessibile by the group stergachis_reader. I created an igv folder for storing these bam files k_claflamm:claflamm/igv . When copying, you may need to use the `-s3-no-check-bucket` flag. Remember to update the ACLs per kopah quickstart guide `s3cmd setacl "s3://claflamm/igv/*" --acl-grant=read:stergachis_reader`.
+
 # PATH
 Note: only things that you want to be exectuable from everywhere at all times should be in PATH. Therefore, I have bin/ in path, and I have tools/commands/ in path. Whereas, I can install environment-specific software into tools/ and it won't interfere between my user PATH and env-specific PATHs.
 ```
@@ -222,8 +224,6 @@ micromamba (in PATH): /mmfs1/gscratch/stergachislab/claflamm/micromamba/
 tools (NOT in PATH): /mmfs1/gscratch/stergachislab/claflamm/tools/
 note: I have set it up before where I am storing the software in tools and then linking the executable file in bin so that it is in my PATH.
 ```
-
-# note: if the bam is not accessed through prod reporter quick igv session download, then you need to copy the data over to rclone and use the s3 link. I have already set up `policy.json` file so that my personal bucket is accessibile by the group stergachis_reader. I created an igv folder for storing these bam files k_claflamm:claflamm/igv . When copying, you may need to use the `-s3-no-check-bucket` flag. Remember to update the ACLs per kopah quickstart guide.
 
 # Tools
 FiberHMM: installed from source and created micromamba env `fiberhmm` where commands are executable under their `pyproject.toml` names.
