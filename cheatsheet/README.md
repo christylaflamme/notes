@@ -263,3 +263,6 @@ To use jupyter notebook on hyak:
 jup
 ```
 This is an alias to submit a slurm job that starts jupyter notebook on the HPCF. A log file is deposited into ~/start_jupyter_output with local ssh command to tunnel and links for local browser to access the port running Jupyter. Hint: use the last link with the token.
+
+
+Note: on local computer, created a `jupyter` micromamba environment. Activate env and then type `jupyter notebook`.
