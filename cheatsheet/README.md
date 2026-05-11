@@ -266,3 +266,10 @@ This is an alias to submit a slurm job that starts jupyter notebook on the HPCF.
 
 
 Note: on local computer, created a `jupyter` micromamba environment. Activate env and then type `jupyter notebook`.
+
+# Kopah backup of hyak/klone
+
+To copy entire main working directory on stergachis lab to kopah (working directory of: /mmfs1/gscratch/stergachislab):
+`rclone copy claflamm/ k_claflamm:claflamm/ -P`
+
+Then, delete whatever you don't directly need on hyak/klone.
