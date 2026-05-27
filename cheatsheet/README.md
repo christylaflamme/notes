@@ -73,7 +73,7 @@ myq
 ```
 Submit a job:
 ```
-sbatch sbatch.slurm
+sbatch <sbatch.slurm>
 ```
 
 Cancel a job:
