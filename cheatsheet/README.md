@@ -156,6 +156,8 @@ Installed R on klone/hyak using miniconda: `/mmfs1/gscratch/stergachislab/clafla
 
 This R environment is named: `renv`
 
+Example install of common bioconductor package: `conda install -c bioconda -c conda-forge bioconductor-dss`
+
 The packages for renv: `/mmfs1/gscratch/stergachislab/claflamm/bin/miniconda3/envs/renv/lib/R/library`
 
 Note: in order to execute R from VS Code (with autofill via extensions), you need to update your r paths in the VS Code command palette via remote `settings.json` file [Preferences: Open Remote Settings (JSON)]:
