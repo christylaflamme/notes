@@ -95,6 +95,12 @@ Check allocations/partitions:
 ```
 hyakalloc
 ```
+
+Check current queue in the lab:
+```
+squeue -A stergachislab
+```
+
 Resource allocation:
 
 
