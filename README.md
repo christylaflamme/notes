@@ -11,7 +11,7 @@ Christy LaFlamme's personal notes, cheat sheets, and reusable code snippets, col
 | [`R/functions/`](R/functions/) | Reusable R analysis functions (DNA methylation, epigenetic clocks, snRNA nomenclature, ...) and [`useful_commands.md`](R/functions/useful_commands.md) | `niftyRFunctions` (repo + wiki) |
 | [`illustrator/`](illustrator/) | Adobe Illustrator tips and tricks | `adobe-illustrator-hacks` (wiki) |
 
-The original repos are archived and read-only, and each one links here. Their full commit history was carried over into these folders, including their GitHub wikis:
+The original repos are now private archives. Their full commit history was carried over into these folders, including their GitHub wikis:
 
 | Wiki | Now at |
 |---|---|
